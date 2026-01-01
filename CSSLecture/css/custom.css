@@ -1,0 +1,74 @@
+/* Universal Selector */
+*{
+    /* color: #ff0000; */
+}
+
+/* Element Selector/Tag Selector */
+h1{
+    text-align: center;
+    color: #ff0000;
+}
+
+/* Attribute Selector */
+a[title="facebook"]{
+    color: green;
+    text-decoration: none;
+}
+
+
+/* Id Selector */
+
+#idselector{
+    color: brown;
+    line-height: 30px;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+
+/* Class Selector */
+
+.classone{
+    color: #218621;
+    text-indent: 40px;
+    line-height: 25px;
+    word-spacing: 15px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+/* Descendant Selector */
+#desc a{
+    color: red;
+}
+
+/* Child Selector */
+
+#child > a{
+    color: brown;
+}
+
+/* Pseudo Selector */
+
+a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    text-decoration: double underline;
+    color: brown;
+}
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: red;
+}
+
+/* Target */
+:target{
+    color: red;
+}
