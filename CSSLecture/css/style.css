@@ -1,8 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 h1{
     /* color: red; keyword/text */
     /* color: #ff0000; 0 to 9 -> a to f hex code */
     /* color: #f00; short hex code */
     color: rgb(255, 0, 0); /* rgb(red, green, blue) 0 to 255 */
     text-align: center;
-    font-size: 10px;
+    font-size: 40px;
+}
+
+/* border */
+
+.borderone{
+    /* border: 50px solid #ff0000; */
+    border-top: 10px solid #ffff00;
+}
+
+.bordertwo{
+    /* border-style: solid; */
+    /* all four side */
+    /* border-style: solid dotted; */
+    /* T&B / L&R */
+    /* border-style: solid dotted double; */
+    /* T / L&R / B */
+    border-style: solid dotted double dashed;
+    /* T / R / B / L */
+}
+
+.borderthree{
+    border-width: 30px 20px 100px 1px;
+    border-style: solid;
+}
+
+/* margin */
+
+.marginone{
+    /* margin: 50px; */
+    margin-top: 50px;
+
+    border: 2px solid black;
+}
+
+/* padding */
+
+.paddingone{
+    /* padding: 50px 100px; */
+    padding-top: 50px;
+    border: 2px solid black;
+}
+
+
+/* Layout */
+
+.inline{
+    display: inline-block;
+    border: 1px solid black;
+    width: 400px;
+}
+
+
+.block{
+    border: 1px solid red;
+    width: 400px;
+    display: inline-block;
 }

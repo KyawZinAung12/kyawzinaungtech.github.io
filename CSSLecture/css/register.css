@@ -39,3 +39,36 @@ input[type="checkbox"]:checked + label{
 input[type="checkbox"]:disabled + label{
     color: #989898;
 }
+
+ul li:first-child{
+    background-color: #ff0000;
+}
+
+ul li:last-child{
+    background-color: #00ff00;
+}
+
+ul li:nth-child(4){
+    background-color: #ffff00;
+}
+.thank_u{
+    text-align: center;
+}
+
+p:empty{
+    background-color: #ff0000;
+    height: 20px;
+}
+
+#submit_btn{
+    width: 100px;
+    height: 40px;
+    /* background-color: #2530fa; */
+    border: 1px solid #2530fa;
+    border-radius: 5px;
+}
+
+#submit_btn:hover{
+    background-color: #2530fa;
+    color: #ffffff;
+}
