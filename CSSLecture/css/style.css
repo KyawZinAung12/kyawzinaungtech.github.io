@@ -118,3 +118,58 @@ h1{
     grid-row-end: 4;
     grid-column-start: 3;
 }
+
+/* Position */
+
+.relative_parent{
+    border: 1px solid red;
+    height: 500px;
+}
+
+.relative{
+    border: 1px solid green;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    top: 5%;
+    left: 10%;
+}
+
+.absolute_parent{
+    border: 1px solid black;
+    height: 500px;
+    position: relative;
+}
+
+.absolute{
+    border: 1px solid yellow;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+
+.fixed{
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+
+
+/* onine font */
+.online_font{
+    font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face{
+    src: url('../font/Pacifico/Pacifico-Regular.ttf');
+    font-family: 'a';
+}
+
+.offline_font{
+    font-family: 'a';
+}
